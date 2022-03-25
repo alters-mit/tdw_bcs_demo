@@ -1,6 +1,6 @@
 # TDW BCS Demo
 
-BCS demo of [ThreeDWorld (TDW)](https://github.com/threedworld-mit/tdw)
+BCS demo of [ThreeDWorld (TDW)](https://github.com/threedworld-mit/tdw).
 
 ## Requirements
 
@@ -32,9 +32,9 @@ py -3 hello_world.py
 
 ## List of controllers
 
-| Controller | Goal |
-| --- | --- |
-| `hello_world.py` | Print "hello world". |
-| `tdw_room.py` | Position the camera so that you can see the box. |
-| `use_the_force.py` | Apply a force to a ball in order to knock objects off the table. |
-| `use_the_brute_force.py` | Use an automated brute-force method to find a solution to the `UseTheForce` demo. |
+| Controller | Goal | Lines of code to adjust |
+| --- | --- | --- |
+| `hello_world.py` | Print "hello world". | N/A |
+| `tdw_room.py` | Position the camera so that you can see the box. | 15 |
+| `use_the_force.py` | Apply a force to a ball in order to knock objects off the table. | 85-89 |
+| `use_the_brute_force.py` | Use an automated brute-force method to find a solution to the `UseTheForce` demo. | N/A |
