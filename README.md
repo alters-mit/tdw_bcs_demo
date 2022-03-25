@@ -1,6 +1,6 @@
 # TDW BCS Demo
 
-BCS demo of [ThreeDWorld (TDW)](https://github.com/threedworld-mit/tdw). Students should edit these controllers as part of the demo.
+BCS demo of [ThreeDWorld (TDW)](https://github.com/threedworld-mit/tdw). Students should edit these controllers as part of the tutorial.
 
 ## Requirements
 
