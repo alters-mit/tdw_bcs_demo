@@ -11,9 +11,6 @@ class UseTheBruteForce(Controller):
     GOAL: Use an automated brute-force method to find a solution to the `UseTheForce` demo.
     """
 
-    def __init__(self, port: int = 1071, check_version: bool = True, launch_build: bool = True):
-        super().__init__(port=port, check_version=check_version, launch_build=launch_build)
-
     def trial(self, camera_position: Dict[str, float], ball_position: Dict[str, float],
               ball_bounciness: float, ball_mass: float, ball_force: float):
         # Clear the list of add-ons.
